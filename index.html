@@ -4,64 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1 class="logo">Salustiano Martins</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section class="intro">
-        <div class="container">
-            <h2>Hello, I'm Salustiano Martins</h2>
-            <p>An ISP technician who works for a Telecommunication company since 2009.</p>
-        </div>
-    </section>
-
-    <section class="portfolio">
-        <div class="container">
-            <h2>My Projects</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="project1.jpg" alt="Project 1">
-                    <h3>Project One</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="project2.jpg" alt="Project 2">
-                    <h3>Project Two</h3>
-                    <p>Donec facilisis urna non nulla viverra, eget fringilla quam blandit.</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="project3.jpg" alt="Project 3">
-                    <h3>Project Three</h3>
-                    <p>Aliquam eget dapibus libero. Curabitur sit amet dui velit.</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="project4.jpg" alt="Project 4">
-                    <h3>Project Four</h3>
-                    <p>Suspendisse quis dui id felis pharetra dapibus.</p>
-                </div>
+    <div class="cv-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-image">
+                <img src="profile.jpg" alt="John Doe">
             </div>
-        </div>
-    </section>
+            <div class="personal-info">
+                <h2>John Doe</h2>
+                <p class="job-title">Web Developer</p>
+                <ul>
+                    <li><strong>Email:</strong> johndoe@example.com</li>
+                    <li><strong>Phone:</strong> +123 456 7890</li>
+                    <li><strong>Location:</strong> City, Country</li>
+                    <li><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/johndoe</a></li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul class="skill-list">
+                    <li>HTML5 & CSS3</li>
+                    <li>JavaScript & React</li>
+                    <li>PHP & MySQL</li>
+                    <li>Version Control (Git)</li>
+                    <li>API Development</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+        </aside>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 John Doe. All rights reserved.</p>
-            <p><a href="#">LinkedIn</a> | <a href="#">GitHub</a> | <a href="#">Twitter</a></p>
-        </div>
-    </footer>
+        <!-- Main Content -->
+        <main class="main-content">
+            <section class="profile">
+                <h2>Profile</h2>
+                <p>I am a passionate web developer with over 5 years of experience in building dynamic websites and web applications using modern technologies. Skilled in front-end and back-end development, delivering high-quality work within deadlines.</p>
+            </section>
+
+            <section class="experience">
+                <h2>Work Experience</h2>
+                <div class="job">
+                    <h3>Senior Web Developer</h3>
+                    <p><strong>XYZ Company</strong> - Jan 2020 to Present</p>
+                    <p>Lead the development team in creating scalable web applications, managing front-end and back-end components, and improving performance across multiple projects.</p>
+                </div>
+                <div class="job">
+                    <h3>Web Developer</h3>
+                    <p><strong>ABC Corp</strong> - June 2017 to Dec 2019</p>
+                    <p>Developed and maintained websites for various clients, ensuring responsiveness and high performance, collaborating closely with designers and product managers.</p>
+                </div>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+                <div class="school">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p><strong>University of Technology</strong> - Graduated: 2017</p>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
